@@ -14,6 +14,14 @@ public class Triangle14 {
                 System.out.print("*");
                 j++;
             } 
+            i = n;
+            while (i <= n) { 
+            j = n;
+            while (j < i) {
+                System.out.print("*");
+                j++;
+                }
+            } 
             System.out.println();
             i++;
         }
